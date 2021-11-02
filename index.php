@@ -1,26 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.php</title>
+</head>
+<body>
+    <table>
+    <tr>
+    <th>Type</th>
+    <th>Nom</th>
+    <th>Valeur</th>  
+</tr>
+    <tr>
 
-<?php
+    <td>chaine de caractères</td>
+    <td>string</td>
+    <td>Ilmane</td>
+</tr>
 
-$str = "LaPlateforme" ;
+<tr>
 
-$str2 = "Vive" ;
+<td>Nombre entiers</td>
+<td>int</td>
+<td>3</td>
+</tr>
 
-$str3 = "!" ;
+<tr>
 
-echo $str2 . " " . $str . " " . $str3 ;
+<td>Nombre décimaux</td>
+<td>float</td>
+<td>14,459</td>
+</tr>
 
-$val= 6 + 4;
+<tr>
 
-echo $val;
+<td>Booléens</td>
+<td>bool</td>
+<td>true or false</td>
+</tr>
 
-$mybool ="true";
+<tr>
 
-echo $mybool;
+<td>Rien</td>
+<td>NULL</td>
+<td>Null</td>
+</tr>
+</table>
 
-$mybool ="false";
-
-echo $mybool;
-
-
-
-?>
+</body>
+</html>

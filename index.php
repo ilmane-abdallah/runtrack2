@@ -1,34 +1,23 @@
+	
 <?php
 
 
+$str='Tous ces instants seront
+perdus dans le temps comme les larmes sous la pluie.';
+$num=0;
+while(isset($str[$num])==true){
+    if(isset($num)==true and $num % 2 ==0){
+        echo $str[$num];
 
-$num = 0;
 
+    }else{
+        echo false;
+    }
 
-
-for ( $num = 0 ; $num <= 100 ; $num++ ){
-
-	if($num <= 20){
-
-		 	echo ("<i>");
-		 	}
-
-	if($num >= 25 and $num <= 50 ){
-
-		 	echo ("<u>");
-		 	} 
-
-	if( $num == 42 ) {
-		$num == false;
-		echo ("</i></u>"."LaPlateforme_");
-
-	} else {
-		echo $num;
-	}
-
-	echo ("<br/>"."</i>"."</u>");
-
-		 	
+    $num++;
 }
+
+  
+
 
 ?>

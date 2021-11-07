@@ -1,23 +1,29 @@
-	
 <?php
 
+$fizz="Fizz";
+$buzz="Buzz";
+$fizzb="FizzBuzz";
 
-$str='Tous ces instants seront
-perdus dans le temps comme les larmes sous la pluie.';
-$num=0;
-while(isset($str[$num])==true){
-    if(isset($num)==true and $num % 2 ==0){
-        echo $str[$num];
+for($i=0;$i<=100;$i++){
 
-
-    }else{
-        echo false;
+    if($i % 3 == 0 && $i % 5 == 0){
+        echo ($fizzb."</br>");
     }
 
-    $num++;
-}
+    else if($i %3 == 0){
+        echo ($fizz."</br>");
+    }
 
-  
+    elseif($i % 5 == 0){
+          echo ($buzz."</br>");
+    }
+
+    else {
+        echo ($i."</br>");
+    }
+
+
+}
 
 
 ?>

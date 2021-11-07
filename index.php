@@ -1,29 +1,15 @@
 <?php
 
-$fizz="Fizz";
-$buzz="Buzz";
-$fizzb="FizzBuzz";
 
-for($i=0;$i<=100;$i++){
-
-    if($i % 3 == 0 && $i % 5 == 0){
-        echo ($fizzb."</br>");
+    for($i=2;$i<=1000;$i++){
+        $nbDiv = 0;
+        for($j=1;$j<=$i;$j++){
+            if($i%$j==0){
+                $nbDiv++;            
+            }
+        }
+        if($nbDiv == 2){
+            echo $i."</br> ";
+        }
     }
-
-    else if($i %3 == 0){
-        echo ($fizz."</br>");
-    }
-
-    elseif($i % 5 == 0){
-          echo ($buzz."</br>");
-    }
-
-    else {
-        echo ($i."</br>");
-    }
-
-
-}
-
-
 ?>

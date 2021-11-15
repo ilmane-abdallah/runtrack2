@@ -8,7 +8,7 @@ $table= [200,204,173,98,171,404,459];
            echo "<br/>";
            echo $valeur;
            echo "est Pair";
-
+    
 
        }
        else{

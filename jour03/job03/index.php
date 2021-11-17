@@ -1,10 +1,19 @@
 <?php
 
-$str="I'm sorry Dave I'm afraid I can't
-do that.";
+function Bonjour(){
 
+    return "Bonjour";
+}
 
+    function Bonsoir(){
+     echo  "Bonsoir";
 
+    }
+     
+$bonjour = Bonjour();
+$bonsoir = Bonsoir();
 
+echo $bonjour;
+echo $bonsoir;
 
 ?>

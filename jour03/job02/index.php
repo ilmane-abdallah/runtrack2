@@ -1,8 +1,18 @@
 	
 <?php
 
-$colors=['blue','red','black','yellow'],
-  
+
+
+$str="Tous ces instants seront
+perdus dans le temps comme les larmes sous la pluie.";
+
+
+   for($i=0;$i<=(isset($str[$i]));$i++){
+       if($i % 2 == 0){
+           echo $str[$i];
+       }
+   }
+
 
 
 ?>
